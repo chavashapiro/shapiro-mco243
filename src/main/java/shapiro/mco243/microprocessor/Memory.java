@@ -1,4 +1,4 @@
-package processor;
+package shapiro.mco243.microprocessor;
 
 public class Memory {
 
@@ -15,5 +15,4 @@ public class Memory {
 	public void setMemory(String[] memory) {
 		this.memory = memory;
 	}
-
 }

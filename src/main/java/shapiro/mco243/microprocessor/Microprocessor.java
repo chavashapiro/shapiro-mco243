@@ -1,7 +1,7 @@
-package processor;
+package shapiro.mco243.microprocessor;
 
 public class Microprocessor {
-
+	
 	private String[] memory;
 	private String a;
 	private String b;
