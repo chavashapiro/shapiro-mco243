@@ -6,11 +6,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class MicroprocessorMain {
-	
+
 	public static void main(String[] args) {
 		try {
-			BufferedReader reader = new BufferedReader(
-					new InputStreamReader(System.in));
+			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+			// BufferedReader reader = new BufferedReader(
+			// new FileReader("mach.in");
 			String memString;
 			while ((memString = reader.readLine()) != null) {
 				if (!String.valueOf(memString.charAt(0)).equals("8")) {
