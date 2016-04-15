@@ -48,9 +48,9 @@ public class JobScheduler implements Runnable {
 
 			totalTime += actualTimeSlice;
 			if (job != lastJob) {
-				totalTime += OVERHEAD;	
+				totalTime += OVERHEAD;
 				lastJob = job;
-			}			
+			}
 		}
 	}
 
